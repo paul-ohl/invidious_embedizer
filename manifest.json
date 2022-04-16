@@ -3,9 +3,9 @@
 	"version": "0.1",
 	"name": "Invidious Embedizer",
 	"description": "Automatically replaces youtube embeds with invidious embeds in web pages",
-	"options_page": "options.html",
+	"options_page": "html/options.html",
 	"action": {
-		"default_popup": "popup.html",
+		"default_popup": "html/popup.html",
 		"default_icon": "images/icon.png"
 	},
 	"background": {

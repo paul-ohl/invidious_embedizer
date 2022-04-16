@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style/options.css">
+	</head>
+	<body>
+		<h1>Invidious embedizer</h1>
+		<h2>Options:</h2>
+		<p>Please select an invidious instance. If you don't, we'll select one for you.</p>
+		<p>Current instance: <span id="current-instance"></span></p>
+		<label for="invidious-instance">Invidious instance:</label><br>
+		<input type="text" id="invidious-instance" name="invidious-instance"><br>
+		<input type="submit" id="invidious-instance-submit" value="Select instance"><br>
+		<hr>
+		<p>Should the extension auto run in all pages?</p>
+		<label for="auto-run">auto-run:</label>
+		<input type="checkbox" id="auto-run" name="auto-run"><br>
+		<input type="submit" id="auto-run-submit" value="Select"><br>
+		<h2>About:</h2>
+		<p>Invidious Embedizer is <a href="https://github.com/paul-ohl/invidious_embedizer">Free (Libre) and Open Source software</a> licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0</a> and developed by <a href="https://github.com/paul-ohl">Paul OHL</a>.</p>
+		<hr>
+		<p><a href="https://invidious.io/">Invidious</a> is an open source alternative front-end to YouTube.</p>
+		<a class="btn" href="https://instances.invidious.io/" role="button">Use Invidious</a>
+		<a class="btn" href="https://docs.invidious.io/installation/" role="button">Host Invidious</a>
+		<a class="btn" href="https://invidious.io/donate/" role="button">Donate to Invidious</a>
+	</body>
+	<script src="options.js"></script>
+</html>
