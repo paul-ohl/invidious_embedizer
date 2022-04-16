@@ -4,7 +4,7 @@ An extension to completely replace those youtube links.
 
 ## TODO:
 
--[ ] Create an option page to set parameters
+- [ ] Create an option page to set parameters
 	- [ ] select invidious instance (string)
 	- [ ] auto-replace (bool)
 	- [ ] link to license
