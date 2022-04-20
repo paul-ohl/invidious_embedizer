@@ -1,6 +1,6 @@
-let color = '#3aa757';
+let invidiousInstance = 'vid.puffyan.us/';
 
 chrome.runtime.onInstalled.addListener(() => {
-	chrome.storage.sync.set({ color });
-	console.log('Default background color set to %cgreen', `color: ${color}`);
+	chrome.storage.sync.set({ invidiousInstance });
+	console.log('Default Invidious instance set to %cgreen', `invidiousInstance: ${invidiousInstance}`);
 });
