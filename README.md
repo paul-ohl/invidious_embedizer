@@ -5,6 +5,9 @@ An extension to completely replace those youtube links.
 ## TODO:
 
 - [ ] Create an option page to set parameters
+	- [ ] structure html better to group options
+	- [ ] Improve css
+	- [ ] When clicking save, disable the button until a parameter is changed
 	- [x] select invidious instance (string)
 	- [x] auto-replace (bool)
 	- [x] link to license
@@ -12,13 +15,13 @@ An extension to completely replace those youtube links.
 	- [x] link to my github
 	- [x] host your invidious instance!
 	- [x] donate to invidious
-	- [ ] Improve css based on [Luke Smith's website](https://lukesmith.xyz/)
-- [x] Add license: use same license as Invidious
+	- [x] Make options set variables
+	- [x] fill values of parameters when entering the page
+- [ ] Read the damn licence!
 - [ ] Find a way to auto select an invidious instance.
-- [ ] Change popup: do changes right when clicked, don't show popup.
 - [ ] When modifying links, change the link's name as well.
 - [ ] In discord, video title's link is not modified, find out why
 - [ ] Create custom icon
-- [ ] Add description
+- [ ] Add a more complete description with explanations
 - [ ] Get in touch with Invidious developper to ask if ok to publish
 - [ ] publish

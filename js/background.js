@@ -1,13 +1,15 @@
-let invidiousInstance = 'vid.puffyan.us/';
+let invidiousInstance = 'vid.puffyan.us';
 
 chrome.runtime.onInstalled.addListener(() => {
-	chrome.storage.sync.set({ invidiousInstance });
-	console.log('Default Invidious instance set to %cgreen', `invidiousInstance: ${invidiousInstance}`);
+	chrome.storage.sync.set({
+		invidiousInstance: invidiousInstance,
+		autoRun: false,
+	});
 });
 
 chrome.action.onClicked.addListener((tab) => {
 	chrome.scripting.executeScript({
 		target: {tabId: tab.id},
-		files: ['clickedButton.js']
+		files: ['js/replaceYoutube.js', 'js/clickedButton.js']
 	});
 });
