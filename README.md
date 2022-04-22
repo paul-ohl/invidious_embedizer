@@ -8,15 +8,7 @@ An extension to completely replace those youtube links.
 	- [ ] structure html better to group options
 	- [ ] Improve css
 	- [ ] When clicking save, disable the button until a parameter is changed
-	- [x] select invidious instance (string)
-	- [x] auto-replace (bool)
-	- [x] link to license
-	- [x] link to invidious
-	- [x] link to my github
-	- [x] host your invidious instance!
-	- [x] donate to invidious
-	- [x] Make options set variables
-	- [x] fill values of parameters when entering the page
+- [ ] make the link modification work with more types of link: messenger
 - [ ] Read the damn licence!
 - [ ] Find a way to auto select an invidious instance.
 - [ ] When modifying links, change the link's name as well.
