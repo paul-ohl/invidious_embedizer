@@ -2,6 +2,8 @@
 
 An extension to completely replace those youtube links.
 
+This project is licensed under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html).
+
 ## TODO:
 
 - [x] Create an option page to set parameters
