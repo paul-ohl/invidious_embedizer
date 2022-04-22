@@ -1,51 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<style>
-body {
-	margin-top: 0;
-	background-color: rgb(35, 35, 35);
-	color: #f0f0f0;
-}
-#main {
-	background-color: rgb(45, 45, 45);
-	margin: auto;
-	width: 60%;
-	padding: 10px;
-}
-h1 {
-	font-style: bold;
-	text-align: center;
-}
-a {
-	color: #a0a0a0;
-}
-	</style>
-</head>
-<body>
-	<div id="main">
-		<h1>Invidious embedizer</h1>
-		<div id="Options">
-			<h2>Options:</h2>
-			<p>Please select an invidious instance. If you don't, we'll select one for you.</p>
-			<p>Current instance: <span id="current-instance"></span></p>
-			<label for="invidious-instance">Invidious instance:</label><br>
-			<input type="text" id="invidious-instance" name="invidious-instance"><br>
-			<p>Should the extension auto run in all pages?</p>
-			<label for="autoRun">autoRun:</label>
-			<input type="checkbox" id="autoRun" name="autoRun"><br>
-			<button id="saveSettingsButton" disabled>Save Settings</button>
-		</div>
-		<div id="About">
-			<h2>About:</h2>
-			<p>Invidious Embedizer is <a href="https://github.com/paul-ohl/invidious_embedizer">Free (Libre) and Open Source software</a> licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0</a> and developed by <a href="https://paulohl.fr">Paul OHL</a>.</p>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="../style/options.css">
+		<title>Invidious Embedizer Options</title>
+	</head>
+	<body>
+		<div id="main">
+			<h1>Invidious embedizer</h1>
+			<div id="options">
+				<h2>Options:</h2>
+				<p>You can select the invidious instance you want to replace youtube links with, and choose whether the extension should autorun on every page.</p>
+				<div class="option">
+					<label for="invidious-instance">Invidious instance:</label><br>
+					<input type="text" id="invidious-instance" name="invidious-instance"><br>
+				</div>
+				<div class="option">
+					<label for="autoRun">autoRun:</label>
+					<input type="checkbox" id="autoRun" name="autoRun"><br>
+				</div>
+				<button id="saveSettingsButton" disabled>Nothing was modified</button>
+			</div>
 			<hr>
-			<p><a href="https://invidious.io/">Invidious</a> is an open source alternative front-end to YouTube.</p>
-			<a class="btn" href="https://instances.invidious.io/" role="button">Use Invidious</a>
-			<a class="btn" href="https://docs.invidious.io/installation/" role="button">Host Invidious</a>
-			<a class="btn" href="https://invidious.io/donate/" role="button">Donate to Invidious</a>
+			<div id="About">
+				<h2>About:</h2>
+				<p>Invidious Embedizer is <a target="_blank"href="https://github.com/paul-ohl/invidious_embedizer">Free (Libre) and Open Source software</a> licensed under the <a target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0</a> and developed by <a target="_blank" href="https://paulohl.fr">Paul OHL</a>.</p>
+				<p><a target="_blank"href="https://invidious.io/">Invidious</a> is an open source alternative front-end to YouTube.</p>
+				<div class="invidious-links">
+				<a target="_blank"class="btn" href="https://instances.invidious.io/" role="button">Use Invidious</a>
+				<a target="_blank"class="btn" href="https://docs.invidious.io/installation/" role="button">Host Invidious</a>
+				<a target="_blank"class="btn" href="https://invidious.io/donate/" role="button">Donate to Invidious</a>
+				</div>
+			</div>
 		</div>
-	</div>
-</body>
-<script src="../js/options.js"></script>
+		<script src="../js/options.js"></script>
+	</body>
 </html>

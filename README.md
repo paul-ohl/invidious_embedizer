@@ -4,10 +4,7 @@ An extension to completely replace those youtube links.
 
 ## TODO:
 
-- [ ] Create an option page to set parameters
-	- [ ] structure html better to group options
-	- [ ] Improve css
-	- [ ] When clicking save, disable the button until a parameter is changed
+- [x] Create an option page to set parameters
 - [ ] make the link modification work with more types of link: messenger
 - [ ] Read the damn licence!
 - [ ] Find a way to auto select an invidious instance.
