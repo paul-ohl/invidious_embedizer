@@ -1,6 +1,7 @@
 let invidiousInstanceInput = document.getElementById("invidious-instance");
 let autoRunInput = document.getElementById("autoRun");
 let saveSettingsButton = document.getElementById("saveSettingsButton");
+let chooseForMeButton = document.getElementById("chooseForMe");
 
 chrome.storage.sync.get(['invidiousInstance', 'autoRun'], function(result) {
 	invidiousInstanceInput.value = result.invidiousInstance;
@@ -19,6 +20,11 @@ saveSettingsButton.addEventListener("click", () => {
 	}, () => {
 		saveSettingsButton.innerHTML = "Saved!";
 	});
+});
+
+chooseForMeButton.addEventListener("click", () => {
+	setInvidiousInstance(invidiousInstanceInput);
+	reactivateButton();
 });
 
 function reactivateButton() {

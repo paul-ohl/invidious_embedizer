@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"name": "Invidious Embedizer",
 	"description": "Automatically replaces youtube embeds with invidious embeds in web pages",
 	"options_page": "html/options.html",
