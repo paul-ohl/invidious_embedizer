@@ -10,7 +10,7 @@ This project is licensed under the [GNU Affero General Public License](https://w
 - [ ] make the link modification work with more types of link: messenger, discord
 - [x] Read the damn licence!
 - [x] Find a way to auto select an invidious instance.
-- [ ] Initialize settings if not already set.
+- [x] Initialize settings if not already set.
 - [ ] Create custom icon
 - [ ] Add a more complete description with explanations
 - [ ] Get in touch with Invidious developper to ask if ok to publish
