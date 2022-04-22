@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"name": "Invidious Embedizer",
-	"description": "Automatically replaces youtube embeds with invidious embeds in web pages",
+	"description": "An extension to replace youtube links and embeds.",
 	"options_page": "html/options.html",
 	"action": {
 		"default_title": "Embedize!!!",
